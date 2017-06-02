@@ -5,7 +5,7 @@ MAINTAINER Steven Bower <steven@purse.io>
 ADD http://www.random.org/strings/?num=10&len=8&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new uuid
 
 ENV BCOIN_BRANCH=master \
-    BCOIN_REPO=https://github.com/bcoin-org/bcoin.git
+    BCOIN_REPO=https://github.com/fragle222/bcoin.git
 
 RUN apk --no-cache add bash build-base git make nodejs python unrar \
     && mkdir -p /code/node_modules/bcoin /data \
