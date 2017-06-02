@@ -4,7 +4,7 @@ MAINTAINER Steven Bower <steven@purse.io>
 # Cache buster
 ADD http://www.random.org/strings/?num=10&len=8&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain&rnd=new uuid
 
-ENV BCOIN_BRANCH=master \
+ENV BCOIN_BRANCH=regtestMine \
     BCOIN_REPO=https://github.com/fragle222/bcoin.git
 
 RUN apk --no-cache add bash build-base git make nodejs python unrar \
